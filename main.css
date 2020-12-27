@@ -6,7 +6,6 @@ html, body, div, span, ul, li, footer, header, section,div {
 	margin: 0;
 	padding: 0;
     border: 0;
-	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -19,6 +18,7 @@ body {
     line-height: 1;
 	-webkit-text-size-adjust: none;
 	height: 100%;
+	max-width: 100%;
 	background: linear-gradient(-45deg, #061161, #780206, #061161, #780206);
 	background-size: 500% 500%;
 	animation: gradient 15s ease infinite;
@@ -47,14 +47,14 @@ html {
 h1 {
 	color: #000000;
 	font-family: 'Poppins', sans-serif;
-	font-size: 24pt;
+	font-size: 30pt;
 	text-transform: uppercase;
 }
 
 p {
 	color: #414f57;
 	font-family: 'Source Sans Pro', Helvetica, sans-serif;
-	font-size: 14pt;
+	font-size: 16pt;
 	font-weight: 300;
 	line-height: 1.5;
 	letter-spacing: 0.2em;
@@ -73,7 +73,7 @@ p {
 	max-width: 100%;
 	position: relative;
 	text-align: center;
-	width: 27em;
+	width: 32em;
 }
 
 #main .avatar {
@@ -91,12 +91,11 @@ button {
     background-color: transparent;
     text-align: center;
 	cursor: pointer;
-	padding: 5px;
-	margin: 2px;
-	margin-bottom: 15px;
+	padding: 10px;
+	margin: 10px 2px 25px 5px;
 	border: 2px solid #ebcc34;
     border-radius: 5px;
-    color: #000;
+	color: #000;
 }
 
 #btn:hover {
@@ -110,7 +109,7 @@ button {
     position: relative;
     transition: 0.5s;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 15px;
+	font-size: 18px;
 	font-weight: 700;
 }
   
@@ -143,7 +142,7 @@ button {
 #footer .copyright {
 	padding-top: 1em;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	font-size: 1em;
+	font-size: 1.3em;
 	list-style: none;
 }
 
@@ -151,7 +150,7 @@ button {
 	display: inline-block;
 	height: 60px;
 	width: 60px;
-	margin: 0 5px;
+	margin: 0 10px;
 	overflow: hidden;
 	background: #fff;
 	border-radius: 50px;
@@ -167,7 +166,6 @@ button {
 	text-align: center;
 	border-radius: 50px;
 	box-sizing: border-box;
-	line-height: 60px;
 	transition: all 0.3s ease-out;
 }
 
@@ -205,7 +203,8 @@ button {
 	justify-content: space-between;
 	flex-direction: column;
 	position: relative;
-	min-height: 100%;
+	top: 45px;
+	min-height: 93%;
 	padding: 2em 1em 1em 1em;
 }
 
@@ -235,6 +234,7 @@ button {
 		justify-content: space-between;
 		flex-direction: column;
 		position: relative;
+		top:0;
 		min-height: 100%;
 		padding: 2.5em 1em 1em 1em;
 	}
