@@ -88,26 +88,32 @@ p {
 }
 
 button {
-    background-color: transparent;
+	background-color: #a81115;
     text-align: center;
 	cursor: pointer;
-	padding: 10px;
+	padding: 10px 35px;
 	margin: 10px 2px 25px 5px;
-	border: 2px solid #ebcc34;
-    border-radius: 5px;
-	color: #000;
+	border: none;
+	box-shadow: 0 9px #a3a3a3;
+	border-radius: 5px;
+	outline: none;
+	color: #fff;
 }
 
 #btn:hover {
-	box-shadow: 0 10px 13px 0 rgba(0,0,0,0.2), 0 15px 487px 0 rgba(0,0,0,0.3);
-	background: linear-gradient(-45deg, #00d2ff, #3a7bd5);
-	color: #fff;
-	border: 2px solid #ebcc34;
+	background-color: #7d0c0f;
+	transform: translateY(-3px);
+	box-shadow: 0 12px #a3a3a3;
 }
 
-#btn span {	
-    position: relative;
-    transition: 0.5s;
+#btn:active {
+	background-color: #7d0c0f;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+#btn span {
+	position: relative;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 18px;
 	font-weight: 700;
