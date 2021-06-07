@@ -181,6 +181,10 @@ button {
 	color: #fff;
 }
 
+.swal2-title {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
 #wrapper {
 	display: flex;
 	align-items: center;
