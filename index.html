@@ -3,13 +3,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css" />
+    <link rel="icon" href="./images/logo.png" type="image/x-icon">
     <!-- fontawesome CDN -->
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.1.0/css/all.css" />
-    <!-- included sweetalert2 js & css CDNs --> 
+    <!-- included sweetalert2 js & css CDNs -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.all.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css">
-    <link rel="icon" href="./images/logo.png" type="image/x-icon">
     <title>Samarjeet's Portfolio</title>
 </head>
 <body>
@@ -63,5 +63,19 @@
     <footer id="footer">
         <span>&copy; Samarjeet Banik | 2020</span>
     </footer>
+    <script>
+        var loadPage = () => {
+            Swal.fire({
+                toast: true,
+                icon: "success",
+                title: "Welcome to Samarjeet's Portfolio!",
+                position: 'top-end',
+                showConfirmButton: false,
+                timer: 3000,
+                timerProgressBar: true
+            })
+        }
+        loadPage()
+    </script>
 </body>
 </html>
