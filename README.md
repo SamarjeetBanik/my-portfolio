@@ -28,7 +28,8 @@ To view a live demo, [click here](https://samarjeetbanik.github.io/my-portfolio/
 
 ## License
 
-Completely free! 😄
+### GNU General Public License v3.0
+Click [here](https://github.com/SamarjeetBanik/my-portfolio/blob/master/LICENSE) to know more abou it!
 
 #### **If you liked it, then don't forget to give a star 🌟 to this repo.**
 
