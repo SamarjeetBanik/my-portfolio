@@ -22,8 +22,8 @@ To view a live demo, [click here](https://samarjeet-banik.netlify.app)
 ## To Contribute
 
 * Mention an issue, fork and clone the repo.
+* Make necessary changes and modifications in the forked repo, commit and push.
 * Make a pull request.
-* Make necessary changes and modifications in a new branch, commit and push.
 * I will check/verify and merge it to the "_master_" branch.
 
 ## License
